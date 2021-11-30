@@ -1,0 +1,96 @@
+{ 
+  "category": [
+      {
+      "id_cat": 1, "num_cat": 1, "description": "Concevoir et développer des composants d'interface utilisateur en intégrant les recommandations de sécurité"
+      },
+      {
+          "id_cat": 2, "num_cat": 2, "description": "Concevoir et développer la persistance des données en intégrant les recommandations de sécurité"
+      },
+      {
+          "id_cat": 3, "num_cat": 3, "description": "Concevoir et développer une application multicouche répartie en intégrant les recommandations de sécurité"
+      }
+  ],
+  "skill": [
+      {
+          "id_skill": 1, "label": "Maquetter une application", "id_cat": 1
+      },
+      {
+          "id_skill": 2, "label": "Développer une interface utilisateur de type desktop", "id_cat": 1
+      },
+      {
+          "id_skill": 3, "label": "Développer des composants d’accès aux données", "id_cat": 1
+      },
+      {
+          "id_skill": 4, "label": "Développer la partie front-end d’une interface utilisateur web", "id_cat": 1
+      },
+      {
+          "id_skill": 5, "label": "Développer la partie back-end d’une interface utilisateur web", "id_cat": 1
+      },
+      {
+          "id_skill": 6, "label": "Concevoir une base de données", "id_cat": 2
+      },
+      {
+          "id_skill": 7, "label": "Mettre en place une base de données", "id_cat": 2
+      },
+      {
+          "id_skill": 8, "label": "Développer des composants dans le langage d’une base de données", "id_cat":2
+      },
+      {
+          "id_skill": 9, "label": "Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement", "id_cat": 3
+      },
+      {
+          "id_skill": 10, "label": "Concevoir une application", "id_cat": 3
+      },
+      {
+          "id_skill": 11, "label": "Développer des composants métier", "id_cat": 3
+      },
+      {
+          "id_skill": 12, "label": "Construire une application organisée en couches", "id_cat": 3
+      },
+      {
+          "id_skill": 13, "label": "Développer une application mobile", "id_cat": 3
+      },
+      {
+          "id_skill": 14, "label": "Préparer et exécuter les plans de tests d’une application", "id_cat": 3
+      },
+      {
+          "id_skill": 15, "label": "Préparer et exécuter le déploiement d’une application", "id_cat": 3
+      }
+  ],
+  "level": [
+      {
+          "id_level": 1, "label": "Niveau 1: Imiter"
+      },
+      {
+          "id_level": 2, "label": "Niveau 2: Adapter"
+      },
+      {
+          "id_level": 3, "label": "Niveau 3: Transposer"
+      }
+  ],
+  "learner": [
+      {
+          "id_learner": 1, "fisrt_name": "Gaëlle"
+      },
+      {
+          "id_learner": 2, "fisrt_name": "Nico"
+      },
+      {
+          "id_learner": 3, "fisrt_name": "Max"
+      },
+      {
+          "id_learner": 4, "fisrt_name": "Mario"
+      }
+  ],
+  "Association": [
+      {
+          "id_learner": 1, "id_skill": 10, "id_level": 2
+      },
+      {
+          "id_learner": 2, "id_skill": 1, "id_level": 3
+      },
+      {
+          "id_learner": 3, "id_skill": 3, "id_level": 1
+      }
+  ]
+}  
