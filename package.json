@@ -1,0 +1,25 @@
+{
+  "name": "simplonskills",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json-server": "./node_modules\\.bin\\json-server --watch ./db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioivanovic/simplonskills.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marioivanovic/simplonskills/issues"
+  },
+  "homepage": "https://github.com/marioivanovic/simplonskills#readme"
+}
