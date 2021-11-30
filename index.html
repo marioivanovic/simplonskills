@@ -4,44 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <script type="text/javascript" src="./index.js"></script>
-    <title>Compétences</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Arbre de compétences</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="/levels.html" class="levels">Levels</a>
-        <a href="" class="links">Test 1</a>
-        <a href="" class="links">Test 2</a>
-        <a href="" class="links">Test 3</a>
+      <nav class="navbar navbar-light bg-dark-blue">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/levels.html" class="levels">Levels</a>
+            </li>
+        </div>
       </nav>
     </header>
 
-    <div class="global-container">
-      <div class="competences">
-        <div class="description">
-          <h1 class="title">Compétence n°1</h1>
-          <p>
-            Concevoir et développer des composants d'interface utilisateur en
-            intégrant les recommandations de sécurité
-          </p>
-        </div>
-        <div class="description">
-          <h1 class="title">Compétence n°2</h1>
-          <p>
-            Concevoir et développer la persistance des données en intégrant les
-            recommandations de sécurité
-          </p>
-        </div>
-        <div class="description">
-          <h1 class="title">Compétence n°3</h1>
-          <p>
-            Concevoir et développer une application multicouche répartie en
-            intégrant les recommandations de sécurité
-          </p>
-        </div>
+    <div class="container mt-5">
+      <div class="row container-skill">
       </div>
     </div>
+    <script type="module" src="js/callApi.js"></script>
   </body>
 </html>

@@ -1,4 +1,24 @@
-* {
+.bg-dark-blue  {
+    background-color: #012063;
+}
+
+.bg-blue {
+    background-color: #74B5E3;
+}
+
+.bg-light-blue {
+    background-color: #C8F1FD ;
+}
+
+.bg-purple {
+    background-color: #E0B2D7;
+}
+
+.text-dark-blue {
+    color: #012063;
+}
+
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -64,7 +84,6 @@ p{
 /* input{
     height: 40px;
     width: 300px;
-} */
 
 .displays{
     display: flex;
@@ -97,4 +116,4 @@ button{
     border-radius: 5px;
     
     margin: 3em 50%;
-}
+} */

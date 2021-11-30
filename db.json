@@ -15,8 +15,8 @@
           "id_skill": 1, "label": "Maquetter une application", "id_cat": 1
       },
       {
-          "id_skill": 2, "label": "Développer une interface utilisateur de type desktop", "id_cat": 1
-      },
+        "id_skill": 12, "label": "Construire une application organisée en couches", "id_cat": 3
+    },
       {
           "id_skill": 3, "label": "Développer des composants d’accès aux données", "id_cat": 1
       },
@@ -36,6 +36,9 @@
           "id_skill": 8, "label": "Développer des composants dans le langage d’une base de données", "id_cat":2
       },
       {
+        "id_skill": 2, "label": "Développer une interface utilisateur de type desktop", "id_cat": 1
+    },
+      {
           "id_skill": 9, "label": "Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement", "id_cat": 3
       },
       {
@@ -44,9 +47,7 @@
       {
           "id_skill": 11, "label": "Développer des composants métier", "id_cat": 3
       },
-      {
-          "id_skill": 12, "label": "Construire une application organisée en couches", "id_cat": 3
-      },
+     
       {
           "id_skill": 13, "label": "Développer une application mobile", "id_cat": 3
       },
