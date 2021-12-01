@@ -61,7 +61,7 @@ fetch(baseUrl + "categories?_embed=skills")
       const currentCategory = new Category(category);
       console.log("currentCat", currentCategory);
       globalContainer.innerHTML +=
-        `<table class="table table-striped table-hover">
+        `<table class="table table-striped">
         <tr>
           <th scope="col">
           ${currentCategory.getDesc()}
@@ -81,13 +81,11 @@ fetch(baseUrl + "categories?_embed=skills")
         globalContainer.innerHTML +=
           `
           <table class="table table-striped table-hover">
-          <tr>
           <td scope="col">${dataSkill.getLabel()}</td>
-          <th><input class="form-check-input" type="radio" /></th>
-          <th><input class="form-check-input" type="radio" /></th>
-          <th><input class="form-check-input" type="radio" /></th>
-        </tr >
-          </table >`
+          <th><input class="form-check-input" type="radio" id="check" /></th>
+          <th><input class="form-check-input" type="radio" id="check" /></th>
+          <th><input class="form-check-input" type="radio" id="check"/></th>
+          </table>`
 
       });
     })

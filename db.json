@@ -144,7 +144,7 @@
       "first_name": "Mario"
     }
   ],
-  "learners_skills": [
+  "learnersSkills": [
     {
       "id_learner": 1,
       "id_skill": 10
