@@ -1,5 +1,7 @@
 import Skill from "./classes/Skill";
 import Category from "./classes/Categories";
+import Levels from "./classes/Levels";
+import LearnersSkills from "./classes/LearnersSkills"
 
 let baseUrl = "http://localhost:3000/"
 
@@ -27,21 +29,6 @@ fetch(baseUrl + "skills")
     console.error(error);
   })
 
-// function getSkills(id_cat) {
-//   return fetch(baseUrl + `skill?categories=${id_cat}`)
-//     .then(function (res) {
-//       console.log("=>1=>", res);
-//       return res.json();
-//     })
-//     .then(function (data) {
-//       console.log("<==2==>", data);
-//     })
-//     .catch(function (error) {
-//       console.error(error);
-//     })
-// }
-
-// getSkills();
 
 // ________________ CALL API CATEGORIES____________
 
@@ -95,3 +82,45 @@ fetch(baseUrl + "categories?_embed=skills")
   .catch(function (error) {
     console.error(error);
   })
+
+  //__________________ CALL API LEVELS______________
+
+  fetch(baseUrl + "levels")
+  .then(function (response) {
+    return response.json();
+  })
+
+  .then(function (obj) {
+    return obj.map((level) => {
+      const globalContainer = document.querySelector(".container-levels");
+      const currentLevel = new Levels(level);
+     
+      globalContainer.innerHTML +=
+      `<div class="col-4">
+      <p class="d-flex justify-content-center">${currentLevel.getLabel()}</p>
+      </div>`
+
+    })
+  })
+  .catch(function (error) {
+    console.error(error);
+  })
+
+  //____________ CALL API LEARNERS ____________
+
+  fetch(baseUrl + "learnersSkills")
+  .then(function (response) {
+    return response.json();
+  })
+
+  .then(function (obj) {
+    console.log("learners : ", obj);
+    return obj.map((learnerSkill) => {
+      const currentLS = new LearnersSkills(learnerSkill);
+      console.log(currentLS);
+    })
+  })
+  .catch(function (error) {
+    console.error(error);
+  })
+  
