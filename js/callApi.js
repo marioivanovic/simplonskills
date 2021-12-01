@@ -1,10 +1,8 @@
 import Skill from "./classes/Skill";
 
-
 let baseUrl = "http://localhost:3000/"
 
 fetch( baseUrl + "skills")
-
 .then(function(response) {
   return response.json();
 })
@@ -15,7 +13,7 @@ fetch( baseUrl + "skills")
     const globalContainer = document.querySelector(".container-skill");
 
     globalContainer.innerHTML +=
-    `<div class="col-4 ${currentSkill.getCatColor(skill.id_cat)}">
+    `<div class="col-4 ${currentSkill.getCatColor(skill.idCat)}">
     <span>${currentSkill.getIdSkill()}</span>
     <p class="d-flex justify-content-center">${currentSkill.getLabel()}</p>
     </div>`
@@ -26,3 +24,5 @@ fetch( baseUrl + "skills")
 .catch(function(error) {
   console.error(error);
 })
+
+
