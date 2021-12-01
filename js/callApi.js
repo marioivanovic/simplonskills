@@ -1,7 +1,6 @@
 import Skill from "./classes/Skill";
 import Category from "./classes/Categories";
 
-
 let baseUrl = "http://localhost:3000/"
 
 fetch(baseUrl + "skills")
