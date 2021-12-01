@@ -138,57 +138,9 @@
     {
       "id_learner": 4,
       "fisrt_name": "Mario"
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 4
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 5
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 6
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 7
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 8
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 9
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 10
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 11
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 12
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 13
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 14
-    },
-    {
-      "fisrt_name": "Bloup",
-      "id": 15
     }
   ],
-  "learners_skills": [
+  "learnersSkills": [
     {
       "id_learner": 1,
       "id_skill": 10

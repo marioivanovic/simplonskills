@@ -13,7 +13,7 @@ fetch( baseUrl + "skills")
     const globalContainer = document.querySelector(".container-skill");
 
     globalContainer.innerHTML +=
-    `<div class="col-4 ${currentSkill.getCatColor(skill.categoryId)}">
+    `<div class="col-4 ${currentSkill.getCatColor(skill.idCat)}">
     <span>${currentSkill.getIdSkill()}</span>
     <p class="d-flex justify-content-center">${currentSkill.getLabel()}</p>
     </div>`
