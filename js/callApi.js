@@ -3,7 +3,7 @@ import Skill from "./classes/Skill";
 
 let baseUrl = "http://localhost:3000/"
 
-fetch( baseUrl + "skill")
+fetch( baseUrl + "skills")
 
 .then(function(response) {
   return response.json();
@@ -17,7 +17,7 @@ fetch( baseUrl + "skill")
     globalContainer.innerHTML +=
     `<div class="col-4 ${currentSkill.getCatColor(skill.id_cat)}">
     <span>${currentSkill.getIdSkill()}</span>
-    <p>${currentSkill.getLabel()}</p>
+    <p class="d-flex justify-content-center">${currentSkill.getLabel()}</p>
     </div>`
      
   })

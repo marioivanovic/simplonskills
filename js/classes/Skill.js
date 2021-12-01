@@ -4,6 +4,7 @@ export default class Skill {
         this.id_skill = skill.id_skill;
         this.label = skill.label;
         this.id_cat = skill.id_cat;
+        this.id_level = skill.id_level
     }
 
     getIdSkill() {
@@ -18,6 +19,11 @@ export default class Skill {
         return this.id_cat
     }
 
+    getIdLevel() {
+        return this.id_level
+    }
+
+    
     getCatColor(idCat) {
         let color = '';
 
