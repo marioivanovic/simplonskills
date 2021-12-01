@@ -1,14 +1,14 @@
 export default class Skill {
 
     constructor(skill) {
-        this.id_skill = skill.id_skill;
+        this.id = skill.id;
         this.label = skill.label;
-        this.id_cat = skill.id_cat;
-        this.id_level = skill.id_level
+        this.categoryId = skill.categoryId;
+        this.levelId = skill.levelId
     }
 
     getIdSkill() {
-        return this.id_skill
+        return this.id
     }
 
     getLabel() {
@@ -16,11 +16,11 @@ export default class Skill {
     }
 
     getIdCat() {
-        return this.id_cat
+        return this.categoryId
     }
 
     getIdLevel() {
-        return this.id_level
+        return this.levelId
     }
 
     
