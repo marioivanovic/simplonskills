@@ -18,95 +18,95 @@
   ],
   "skills": [
     {
-      "id_skill": 14,
+      "id": 14,
       "label": "Préparer et exécuter les plans de tests d’une application",
       "categoryId": 3,
       "id_level": ""
     },
     {
-      "id_skill": 1,
+      "id": 1,
       "label": "Maquetter une application",
       "categoryId": 1,
       "id_level": ""
     },
     {
-      "id_skill": 12,
+      "id": 12,
       "label": "Construire une application organisée en couches",
       "categoryId": 3,
       "id_level": ""
     },
     {
-      "id_skill": 3,
+      "id": 3,
       "label": "Développer des composants d’accès aux données",
       "categoryId": 1,
       "id_level": ""
     },
     {
-      "id_skill": 8,
+      "id": 8,
       "label": "Développer des composants dans le langage d’une base de données",
       "categoryId": 2,
       "id_level": ""
     },
     {
-      "id_skill": 5,
+      "id": 5,
       "label": "Développer la partie back-end d’une interface utilisateur web",
       "categoryId": 1,
       "id_level": ""
     },
     {
-      "id_skill": 6,
+      "id": 6,
       "label": "Concevoir une base de données",
       "categoryId": 2,
       "id_level": ""
     },
     {
-      "id_skill": 10,
+      "id": 10,
       "label": "Concevoir une application",
       "categoryId": 3,
       "id_level": ""
     },
     {
-      "id_skill": 7,
+      "id": 7,
       "label": "Mettre en place une base de données",
       "categoryId": 2,
       "id_level": ""
     },
 
     {
-      "id_skill": 2,
+      "id": 2,
       "label": "Développer une interface utilisateur de type desktop",
       "categoryId": 1,
       "id_level": ""
     },
     {
-      "id_skill": 9,
+      "id": 9,
       "label": "Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement",
       "categoryId": 3,
       "id_level": ""
     },
 
     {
-      "id_skill": 11,
+      "id": 11,
       "label": "Développer des composants métier",
       "categoryId": 3,
       "id_level": ""
     },
     {
-      "id_skill": 4,
+      "id": 4,
       "label": "Développer la partie front-end d’une interface utilisateur web",
       "categoryId": 1,
       "id_level": ""
     },
 
     {
-      "id_skill": 13,
+      "id": 13,
       "label": "Développer une application mobile",
       "categoryId": 3,
       "id_level": ""
     },
 
     {
-      "id_skill": 15,
+      "id": 15,
       "label": "Préparer et exécuter le déploiement d’une application",
       "categoryId": 3,
       "id_level": ""

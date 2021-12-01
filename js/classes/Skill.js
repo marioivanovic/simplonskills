@@ -1,14 +1,14 @@
 export default class Skill {
 
     constructor(skill) {
-        this.id_skill = skill.id_skill;
+        this.id = skill.id;
         this.label = skill.label;
         this.categoryId = skill.categoryId;
-        this.id_level = skill.id_level
+        this.idLevel = skill.idLevel
     }
 
     getIdSkill() {
-        return this.id_skill
+        return this.id
     }
 
     getLabel() {
@@ -20,14 +20,14 @@ export default class Skill {
     }
 
     getIdLevel() {
-        return this.id_level
+        return this.idLevel
     }
 
 
-    getCatColor(idCat) {
+    getCatColor(categoryId) {
         let color = '';
 
-        switch (idCat) {
+        switch (categoryId) {
             case 1:
                 color = "bg-light-blue"
                 break;
