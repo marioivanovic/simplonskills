@@ -3,7 +3,7 @@ export default class Skill {
     constructor(skill) {
         this.id_skill = skill.id_skill;
         this.label = skill.label;
-        this.id_cat = skill.id_cat;
+        this.categoryId = skill.categoryId;
         this.id_level = skill.id_level
     }
 
@@ -16,14 +16,14 @@ export default class Skill {
     }
 
     getIdCat() {
-        return this.id_cat
+        return this.categoryId
     }
 
     getIdLevel() {
         return this.id_level
     }
 
-    
+
     getCatColor(idCat) {
         let color = '';
 
